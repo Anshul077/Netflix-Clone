@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #181818;
+  color: #fff;
+}
+
+header {
+    height: 10vh;
+    background-color: rgb(138, 165, 255);
+    box-shadow: 0 0 2px 0px rgb(0 0 0 / 70%);
+    font-family: 'Source Code Pro', monospace;
+    top: 0;
+    position: sticky;
+    z-index: 20;
+    box-shadow: 0 0 5px rgb(192, 192, 192);
+  }
+  
+  nav ul {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    list-style: none;
+    padding: 0 5px;
+  }
+  
+  li{
+    position: relative;
+    text-decoration: none;
+    font-size: 50px;
+  }
+
+.Search-Cont{
+    height: 8vh;
+    width: 62vw;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Search-heading{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.headTitle{
+  font-size:25px;
+  font-family: 'Rubik', sans-serif;
+  margin-top:20px;
+}
+
+input[type="text"]{
+    width: 45vw;
+    padding: 5px;
+    height:35px;
+    border: 1px solid #333;
+    color:black;
+    background-color:#fff;
+    font-family: 'Josefin Sans', sans-serif;
+    outline: none;
+    font-size: 17px;
+}
+
+.cont{
+    height: 10vh;
+    width: 90vw;
+    margin: 70px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.display-container{
+ 
+}
+
+
+
+.search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:10px 0;
+}
+
+
+.details{
+  height: 5vh;
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 0 15px;
+}
+
+.rating-details{
+  width: 5vw;
+  display: flex;
+  justify-content: center;
+}
+
+.date,.rating{
+  font-size: 16px;
+  margin:10px 0;
+}
+
+.rating-img{
+  height: 4vh;
+  margin: auto 0;
+}
+
+.search-img{
+  height: 5vh;
+width: 2.8vw;
+}
+
+.search-img:hover{
+  filter: invert(1);
+  transition: filter .2s ease-in-out;
+}
+
+.main-cont{
+  height: 80vh;
+  width: 90vw;
+  background-color: rgb(20, 20, 20);
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  border: 1px solid white;
+  box-shadow: 0 0 5px rgb(238, 238, 238);
+}
+
+.info-Container{
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+.mov-img{
+  height: 64vh;
+  width:30vw;
+  margin-left: 50px;
+  background-color: rgb(20, 20, 20);
+}
+
+.det,.head{
+  background-color: rgb(20, 20, 20);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+}
+.det{
+  margin:10px 20px;
+  color: beige;
+  font-weight: lighter;
+  word-wrap: break-word;
+  
+}
+
+.head{
+  color: white;
+  margin:10px 20px;
+  font-weight: bold;
+}
+
+.mov-details{
+  height: 75vh;
+  width: 60vw;
+  margin:auto 10px;
+  padding: 5px;
+  background-color: rgb(20, 20, 20);
+}
+
+.heading{
+  margin: auto 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.cut{
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.cut:hover{
+  color: #ff7364;
+}
+
+.plot{
+  height: 42vh;
+  width: 53vw;
+  margin: -20px 10px auto 70px ;
+}
+
+.mov-logo{
+  height: 30vh;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.movi-logo{
+  height: 30vh;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto 20px;
+  display: none;
+}
